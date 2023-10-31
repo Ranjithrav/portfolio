@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-7">
+        <meta http-eqive="X-UA-compatible" content="IE=edge">
+        <title>Personal portfolio</title>
+        <link rel="stylesheet" href="designs.css">
+        <script src="https://kit.fontawesome.com/3392abf849.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+       <div class="container">
+          <nav>
+              <img src="images/logo.png" class="logo">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+          </nav>
+          <div class="header-text">
+                <p>UI designer</p>
+                <h1>Hi,I'm <span>ranjith</span> </h1>
+          </div>
+       </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ranjth1.jpg">
+                </div>
+                <div class="About-col-2">
+                    <h1 class="sub-title " >About me</h1>
+                    <p>Problem Solving Techniques, fast learner and like to
+                        interactive with others</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Edu</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI</span><br>Designing Web</li>
+                                <li><span>Web Development</span><br> leading page</li>
+                                <li><span>App Development</span><br> Android/ios apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022- current</span><br>UI design training</li>
+                                <li><span>2018 - 2019</span><br> team lead at StartApp LLC.</li>
+                                <li><span>2015 - 2016</span><br> Internship at zoho.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2015</span><br>Designing Web</li>
+                                <li><span>2015</span><br> MBA from IIT Bangalore.</li>
+                                <li><span>2015</span><br> BBA from Bangalore.</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My services</h1>
+                <div class="services-list">
+                    <div class="services-list-1">
+                        <i class="fa-brands fa-twitter"></i>
+                        <h2>Web page</h2>
+                        <p>tells the browser your page is written in HTML format.this is a kind of preface of vital information that doesn't appear on the screen</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+
+                <div class="services-list-2">
+                    <i class="fa-solid fa-bars"></i>
+                    <h2>UI design</h2>
+                    <p> the process designers use to build interfaces in software or computerized devices, focusing on looks or style</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div class="services-list-3">
+                    <i class="fa-regular fa-gamepad"></i>
+                    <h2>App game</h2>
+                    <p>Games are also applications. All applications are software. People who write software are called developers. Some software developers who write applications also write games.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div id="portfolio">
+                    <div class="container">
+                        <h1 class="sub-title">My work</h1>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="images/images5.jpg">;
+                                <div class="layer">
+                                    <h3>vedio App</h3>
+                                    <p>A video app is a type of application or software that allows users to create, edit, or watch videos on their devices. </p>
+                                    <a href="#"><i class="fa-regular fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="images/images1.jpg">
+                                <div class="layer">
+                                    <h3>social Media App</h3>
+                                    <p>Every web-based-application that supports information publishing and sharing (text, video, audio, photo), the building of personal profiles, connecting to a community and searching within the community is considered as a social media application.</p>
+                                    <a href="#"><i class="fa-regular fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="functions.js"> </script>
+    </body>
+</html> 
